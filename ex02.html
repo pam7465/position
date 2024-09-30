@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex02</title>
+    <style>
+        *{
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+        }
+        h1{
+            padding:100px;
+            text-align:center;
+        }
+        .box{
+            width:200px;
+            height:200px;
+            margin:50px auto;
+            border:1px solid red;
+        }
+        .box01{
+            position:relative;
+            /* left:-100px; */
+            right:100px;
+        }
+        .box02{
+            position:relative;
+            /* left:100px; */
+            right:-100px;
+        }
+        .box03{
+            position: relative;
+            top:-100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>포지션(relative)</h1>
+    <div class="box box01"></div>
+    <div class="box box02"></div>
+    <div class="box box03"></div>
+</body>
+</html>

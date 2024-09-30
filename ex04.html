@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex04</title>
+    <style>
+        *{
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+        }
+        .par-box{
+            width:600px;
+            height:200px;
+            margin:0 auto;
+            background-color:lightgray;
+            position:relative;
+        }
+        .box01{
+            width:200px;
+            height:200px;
+            background-color:red;
+            position:absolute;
+            left:0;
+            top:0;
+        }
+        .box02{
+            width:200px;
+            height:200px;
+            background-color:green;
+            position:absolute;
+            left:200px;
+            top:0;
+        }
+        .box03{
+            width:200px;
+            height:200px;
+            background-color:blue;
+            position:absolute;
+            left:400px;
+            top:0;
+        }
+    </style>
+</head>
+<body>
+    <h1>포지션(Absolute)</h1>
+    <div class="par-box">
+        <div class="box box01"></div>
+        <div class="box box02"></div>
+        <div class="box box03"></div>
+    </div>
+</body>
+</html>
